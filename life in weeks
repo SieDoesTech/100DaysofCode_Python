@@ -1,0 +1,20 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+intAge = int(age)
+
+remaining = 90 - intAge
+
+remDay = remaining * 365
+
+weeksRem = remaining * 52
+
+monthsRem = remaining * 12
+
+message = f"You have {remDay} days, {weeksRem} weeks, and {monthsRem} months left."
+
+print(message)
+
